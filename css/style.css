@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Sarabun",sans-serif;
+}
+
+body{
+
+    background:#d9f7be;
+
+    background-image:url("../images/dragon.png");
+
+    background-size:500px;
+
+    background-repeat:repeat;
+
+}
+
+/* เมนู */
+
+header{
+
+    background:#66bb6a;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:15px 40px;
+
+    position:sticky;
+
+    top:0;
+
+}
+
+.logo{
+
+    color:white;
+
+}
+
+nav ul{
+
+    list-style:none;
+
+    display:flex;
+
+}
+
+nav li{
+
+    margin-left:25px;
+
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+nav a:hover{
+
+    color:yellow;
+
+}
+
+/* หน้าแรก */
+
+.hero{
+
+    width:90%;
+
+    max-width:900px;
+
+    margin:80px auto;
+
+    background:rgba(255,255,255,.9);
+
+    padding:50px;
+
+    text-align:center;
+
+    border-radius:20px;
+
+}
+
+.hero h1{
+
+    font-size:50px;
+
+    color:#2e7d32;
+
+}
+
+.hero h2{
+
+    margin:20px;
+
+}
+
+.hero p{
+
+    line-height:2;
+
+}
+
+.btn{
+
+    display:inline-block;
+
+    margin-top:30px;
+
+    padding:15px 35px;
+
+    background:#43a047;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:10px;
+
+}
+
+.btn:hover{
+
+    background:#2e7d32;
+
+}
